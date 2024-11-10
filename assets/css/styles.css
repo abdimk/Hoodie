@@ -11,6 +11,12 @@
   --first-color: hsl(33, 90%, 65%);
   --second-color: hsl(355, 90%, 55%);
   --third-color: hsl(179, 60%, 68%);
+  --forth-color: hsl(41, 24%, 28%);
+  --fifth-color: hsl(300, 13%, 43%);
+  --sixth-color:hsl(269, 8%, 49%);
+  --seventh-color: hsl(52, 41%, 62%);
+
+
   --title-color: hsl(0, 0%, 12%);
   --text-color: hsl(0, 0%, 56%);
   --black-color: hsl(0, 0%, 4%);
@@ -269,6 +275,21 @@ img {
 
 .home__circle-3{
   background-color: var(--third-color);
+}
+.home__circle-4{
+  background-color: var(--forth-color);
+}
+
+.home__circle-5{
+  background-color: var(--fifth-color);
+}
+
+.home__circle-6{
+  background-color: var(--sixth-color);
+}
+
+.home__circle-7{
+  background-color: var(--seventh-color);
 }
 
 .home__img-1,
